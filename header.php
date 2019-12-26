@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/square_logo.jpg">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -33,7 +34,7 @@
                             src="<?php echo get_template_directory_uri(); ?>/img/logo.jpg"></a> </div>
                 <div class="menu_panel y-center px-4">
                     <div>
-                        <p class="menu_name cursive mb-0"><span class="d-none d-md-inline">SITE </span>MENU</p>
+                        <p class="menu_name quicksand mb-0"><span class="d-none d-md-inline">SITE </span>MENU</p>
                         <i class="fas fa-chevron-down menu_panel_icon"></i>
                     </div>
                 </div>

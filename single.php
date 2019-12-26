@@ -113,15 +113,9 @@
                     $classes = ['news','col-6','col-md-3','wow','fadeIn'];
                     $postNum = 'post'.$i;
                     array_push($classes,$postNum);
-                    switch($i) {
-                        case 1: $delay = 0.4; break;
-                        case 2: $delay = 0.2; break;
-                        case 3: $delay = 0.3; break;
-                        case 4: $delay = 0.5; break;
-                    }
                     ?>
                     <li id="post-<?php the_ID(); ?>" <?php post_class($classes); ?> data-wow-duration="1s"
-                        data-wow-delay="<?php print $delay; ?>s">
+                        data-wow-delay="0.2s">
                         <a href="<?php the_permalink(); ?>" class="post_link">
                             <figure class="post_img mb-0">
                                 <?php if(has_post_thumbnail()):

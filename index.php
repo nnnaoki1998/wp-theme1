@@ -2,7 +2,9 @@
 <main>
     <section id="index_top_img" class="top_image text-center y-center slider">
         <div id="index_top_img_inner" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-            <h1 class="text-white">居酒屋</h1>
+            <h1>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/logo_cut_out.png" width="200">
+            </h1>
             <p class="text-white px-3">アットホームな雰囲気の中で自慢の料理をお楽しみください</p>
         </div>
     </section>
